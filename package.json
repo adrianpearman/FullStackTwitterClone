@@ -1,0 +1,12 @@
+{
+  "name": "FullStackTwitterClone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "<adrianpearman12@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.3.1"
+  }
+}
