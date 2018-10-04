@@ -1,6 +1,9 @@
 console.log('connected')
 
 const form = document.querySelector('form')
+const loadingElement = document.querySelector('.loading')
+
+loadingElement.style.display = 'none'
 
 form.addEventListener('submit', (e)=> {
   e.preventDefault()
@@ -13,4 +16,7 @@ form.addEventListener('submit', (e)=> {
     content: content
   }
   console.log(bark)
+
+  form.style.display = 'none'
+  loadingElement.style.display = ''
 })
